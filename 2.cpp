@@ -1,16 +1,12 @@
-//If-Else statemnt
+//while loop
 #include <iostream>
 using namespace std;
 
 int main(){
-	int a,b;
-	a=20;
-	b=10;
-	
-	if(a<b){
-		cout<<"a is less than  b";
-	}else {
-		cout<<"a is bigger than b";
+	int i=0;
+	while(i<=10){
+		cout<<i<<endl;
+		i++;
 	}
 
 return 0;

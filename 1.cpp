@@ -1,19 +1,12 @@
-//If statement conditinal 
+//for loop
 #include <iostream>
 using namespace std;
 
 int main(){
-	int a,b;
-	a=20;
-	b=10;
-	
-	if(a<b){
-		cout<<"A is less than b";
+	int i;
+	for(i=0;i<=10;i++){
+		cout<<i<<endl;
 	}
-	if(a>b){
-		cout<<"A is bigger than B";
-	}
-	
 
 return 0;
 }
