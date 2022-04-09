@@ -1,23 +1,17 @@
+//If-Else statemnt
 #include <iostream>
 using namespace std;
 
 int main(){
-	double num[6]={1,2,3,4,5,6};
-	double sum=0;
-	double avg;
+	int a,b;
+	a=20;
+	b=10;
 	
-	cout<<"The numbers are :: "<<endl;
-	
-	for(int i=0;i<=5;i++){
-		cout<<num[i]<<" ";
-		sum=sum+num[i];
+	if(a<b){
+		cout<<"a is less than  b";
+	}else {
+		cout<<"a is bigger than b";
 	}
-	// print the sum
-    cout << "\nTheir Sum = " << sum << endl;
-
-    // find the average
-    avg = sum / 6;
-    cout << "Their Average = " << avg << endl;
 
 return 0;
 }

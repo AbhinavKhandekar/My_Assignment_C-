@@ -1,13 +1,17 @@
-//Array
+//If statement conditinal 
 #include <iostream>
 using namespace std;
 
 int main(){
-	int numbers[6]={1,5,6,7,8,10};
-	cout<<"the numbers are : "<<endl;
+	int a,b;
+	a=20;
+	b=10;
 	
-	for (int i=0;i<=5;i++){
-		cout <<"Array Position is:: " <<i<<"  "<< numbers[i] << "  "<<endl;
+	if(a<b){
+		cout<<"A is less than b";
+	}
+	if(a>b){
+		cout<<"A is bigger than B";
 	}
 	
 
